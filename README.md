@@ -40,7 +40,7 @@ $ git clone https://github.com/damiecode/maths-magicians-app.git
 > cd into the directory, install dependencies, build and start
 
 ```sh
-$ cd Weather-App
+$ cd maths-magicians-app
 $ npm install
 $ npm run start
 ```
