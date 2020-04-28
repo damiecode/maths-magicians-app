@@ -1,68 +1,74 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Welcome to Maths Magicians Calculator 👋</h1>
+<br>
 
-## Available Scripts
+<!-- <p>
+  <a href="https://rawcdn.githack.com/damiecode/Weather-App/feature/weatherApp/dist/index.html" target="_blank">
+    <img alt="Website" src="weather.png" />
+  </a>
+</p> -->
 
-In the project directory, you can run:
+<br>
 
-### `npm start`
+This project is part of a series of projects to be completed by students of [Microverse](https://www.microverse.org/ 'The Global School for Remote Software Developers!').
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ Math-magicians is a fictional company based in France. They have requested your help to build a simple product that would assist them with their calculations. An important thing to notice is that they have asked for a product that is not just fully-functional, but also beautiful and user-friendly.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+The original version of this content can be found and edited [here](https://github.com/microverseinc/project-react-calculator/blob/master/README.md).
 
-### `npm test`
+## Built With
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+- Node.js
+- React
+- React-DOM
+- React-Create-App
+- npm
+- CSS
+- ES6
+- Webpack
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- ### ✨ [Live Demo](https://rawcdn.githack.com/damiecode/Weather-App/feature/weatherApp/dist/index.html) -->
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> Clone the repository to your local machine
 
-### `npm run eject`
+```sh
+$ git clone https://github.com/damiecode/maths-magicians-app.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+> cd into the directory, install dependencies, build and start
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+$ cd Weather-App
+$ npm install
+$ npm run start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+> Open `http://127.0.0.1:3000` using your favourite broswer, if it doesn't open automatically.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Authors
 
-## Learn More
+👤 **Damilola Ale**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Github: [@damiecode](https://github.com/damiecode)
+- Twitter: [@iamlildamski](https://twitter.com/iamlildamski)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🤝 Contributing
 
-### Code Splitting
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/damiecode/maths-magicians-app/issues).
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+1. Fork it (https://github.com/damiecode/maths-magicians-app/fork)
+2. Create your working branch (git checkout -b [choose-a-name])
+3. Commit your changes (git commit -am 'what this commit will fix/add/improve')
+4. Push to the branch (git push origin [chosen-name])
+5. Create a new Pull Request
 
-### Analyzing the Bundle Size
+## Show your support
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Give a ⭐️ if you like this project!
 
-### Making a Progressive Web App
+## Contact me
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+I am looking for my next opportunity. Reach out to me if you are looking to hire!
+_codenlyn@gmail.com_
