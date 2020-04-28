@@ -27,7 +27,7 @@ The original version of this content can be found and edited [here](https://gith
 - ES6
 - Webpack
 
-<!-- ### ✨ [Live Demo](https://rawcdn.githack.com/damiecode/Weather-App/feature/weatherApp/dist/index.html) -->
+### ✨ [Live Demo](https://maths-magicians-app.herokuapp.com)
 
 ## Usage
 
