@@ -1,4 +1,4 @@
-import Big from 'big.js';
+import Big from 'big-js';
 
 const operate = (numberOne, numberTwo, operations) => {
   const [one, two] = [Big(numberOne), Big(numberTwo)];
