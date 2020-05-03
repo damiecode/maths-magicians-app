@@ -2,7 +2,7 @@
 <br>
 
 <p>
-  <a href="https://maths-magicians-app.herokuapp.com" target="_blank">
+  <a href="https://maths-magicians-app.herokuapp.com" target="_blank" align="center">
     <img alt="Website" src="calculator.png" />
   </a>
 </p>
