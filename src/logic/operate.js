@@ -1,9 +1,9 @@
 import Big from 'big-js';
 
-const operate = (numberOne, numberTwo, operations) => {
+const operate = (numberOne, numberTwo, operation) => {
   const [one, two] = [Big(numberOne), Big(numberTwo)];
 
-  switch (operations) {
+  switch (operation) {
     case '+':
       return one.plus(two).toString();
     case '-':
