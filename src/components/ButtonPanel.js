@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import propTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import Button from './Button';
 import '../styles/styles.css';
 
@@ -42,7 +42,7 @@ const ButtonPanel = ({ clickHandler }) => {
 };
 
 ButtonPanel.propTypes = {
-  clickHandler: propTypes.func.isRequired,
+  clickHandler: PropTypes.func.isRequired,
 };
 
 export default ButtonPanel;
