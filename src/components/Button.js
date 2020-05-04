@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 
 const Button = props => {
   const {
-    name, color, half, clickHandler,
+    name, color, mid, clickHandler,
   } = props;
   const style = {
-    width: half ? '50%' : '25%',
+    width: mid ? '50%' : '25%',
     background: color,
   };
   return (
@@ -22,13 +22,13 @@ const Button = props => {
 };
 Button.propTypes = {
   name: PropTypes.string.isRequired,
-  half: PropTypes.bool,
+  mid: PropTypes.bool,
   color: PropTypes.string,
   clickHandler: PropTypes.func.isRequired,
 };
 
 Button.defaultProps = {
-  half: false,
+  mid: false,
   color: 'orange',
 };
 

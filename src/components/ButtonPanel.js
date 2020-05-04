@@ -31,7 +31,7 @@ const ButtonPanel = ({ clickHandler }) => {
         <Button key="+" name="+" clickHandler={clickHandler} />
       </div>
       <div>
-        <Button key="0" name="0" color={Gray} half clickHandler={clickHandler} />
+        <Button key="0" name="0" color={Gray} mid clickHandler={clickHandler} />
         <Button key="." name="." color={Gray} clickHandler={clickHandler} />
         <Button key="=" name="=" clickHandler={clickHandler} />
       </div>
