@@ -1,5 +1,4 @@
 /* eslint-disable react/no-access-state-in-setstate */
-/* eslint-disable no-unused-vars */
 import React from 'react';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
@@ -22,10 +21,16 @@ export default class App extends React.Component {
   }
 
   render() {
-    const { next, total, operation } = this.state;
+    let result;
+    const { next, total } = this.state;
+    if (next != null) {
+      result = next;
+    } else if (total != null) {
+      result = total;
+    }
     return (
       <div className="app">
-        <Display operation={operation} next={next || '0'} total={total || '0'} />
+        <Display result={result} />
         <ButtonPanel clickHandler={this.handleClick} />
       </div>
     );

@@ -12,7 +12,6 @@ const calculate = (props, buttonName) => {
     if (total) (total *= -1);
     if (next) (next *= -1);
     operation = null;
-    [total, next, operation] = [total *= -1, next *= -1, null];
   }
   if (buttonName === '%') {
     if (total) next = 0.01 * total;

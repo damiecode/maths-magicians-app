@@ -12,7 +12,7 @@ const operate = (numberOne, numberTwo, operations) => {
       return one.times(two).toString();
     case '÷':
       if (two.toString() === '0') {
-        return 0;
+        return '0';
       }
       return one.div(two).toString();
     default:

@@ -3,27 +3,32 @@ import PropTypes from 'prop-types';
 
 const Button = props => {
   const {
-    name, color, mid, clickHandler,
+    name, color, half, clickHandler,
   } = props;
   const style = {
-    width: mid ? '50%' : '25%',
+    width: half ? '50%' : '25%',
     background: color,
   };
   return (
-    <button className="buttons" type="button" style={style} onClick={() => clickHandler(name)}>
+    <button
+      className="buttons"
+      type="button"
+      style={style}
+      onClick={() => clickHandler(name)}
+    >
       {name}
     </button>
   );
 };
 Button.propTypes = {
   name: PropTypes.string.isRequired,
-  mid: false,
+  half: false,
   color: 'orange',
   clickHandler: PropTypes.func.isRequired,
 };
 
 Button.defaultProps = {
-  mid: false,
+  half: false,
   color: 'orange',
 };
 
