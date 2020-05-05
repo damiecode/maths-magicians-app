@@ -8,7 +8,7 @@ const operate = (numberOne, numberTwo, operation) => {
       return one.plus(two).toString();
     case '-':
       return one.minus(two).toString();
-    case '*':
+    case 'X':
       return one.times(two).toString();
     case '÷':
       if (two.toString() === '0') {
